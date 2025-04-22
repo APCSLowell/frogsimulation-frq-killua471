@@ -30,7 +30,7 @@ public class FrogSimulation
 	{ 
 		/* to be implemented in part (b) */ 
 		int count=0;
-		for(int i =0; i<nums;i++){
+		for(int i =0; i<num;i++){
 			if(simulate()){
 				count++;
 			}
