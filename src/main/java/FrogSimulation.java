@@ -21,9 +21,11 @@ public class FrogSimulation
 			pos=pos+hopDistance();
 			if(pos<0){
 				return false;
+			}else if(pos>=goalDistance){
+				return true;
 			}
 		}
-		return pos>=goalDistance;
+		return false;
 	}
 	
 	public double runSimulations(int num)
